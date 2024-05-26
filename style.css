@@ -15,9 +15,11 @@ body {
   background-image: url(bgbg.png);
 }
 
+
+/* navbar */
 .navbar {
   height: 55px;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.677);
 }
 
 .navbar ul {
@@ -33,7 +35,6 @@ body {
   font-size: 17px;
   margin-left: auto;
   height: 40px;
-  transition: text-decoration 1s;
 }
 
 .navbar ul li:hover {
@@ -44,30 +45,31 @@ body {
   width: 50%;
 }
 
-.main {
+/* main box */
+
+.box {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
-  height: 800px;
-}
-.main-image {
-  max-width: 50%;
-}
-
-.main-image img {
-  width:700px
 }
 
 .main-text {
-  background-size: cover;
+  max-width: 50%;
   padding: 60px;
   text-align: justify;
-  max-width: 50%;
-  line-height: 190%;
-  font-size: 20px;
+  line-height: 1.8;
 }
 
-.first-line {
-  margin-bottom: 15px;
+.main-image img {
+  height: 675px;
+}
+
+
+.page-2 {
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    z-index: 2;
+    overflow: hidden;
+    margin-top: -4px;
 }
