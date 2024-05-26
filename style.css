@@ -7,6 +7,10 @@
   color: black;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 body {
   background-image: url(bgbg.png);
 }
@@ -61,4 +65,9 @@ body {
   text-align: justify;
   max-width: 50%;
   line-height: 190%;
+  font-size: 20px;
+}
+
+.first-line {
+  margin-bottom: 15px;
 }
