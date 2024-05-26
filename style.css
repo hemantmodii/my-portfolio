@@ -13,6 +13,8 @@ h1 {
 
 body {
   background-image: url(bgbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -42,7 +44,7 @@ body {
 }
 
 .navbar ul li:first-child {
-  width: 50%;
+  margin-right: 50%;
 }
 
 /* main box */
@@ -68,8 +70,30 @@ body {
 .page-2 {
     height: 100vh;
     width: 100%;
-    background-color: blue;
     z-index: 2;
     overflow: hidden;
     margin-top: -4px;
+}
+
+.page-2 ul {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.page-2 ul li {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.card-text {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card-image img {
+  height: 200px;
+  border-radius: 5%;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.687);
 }
