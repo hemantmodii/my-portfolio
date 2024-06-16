@@ -47,6 +47,24 @@ body {
   margin-right: 50%;
 }
 
+.login-btn {
+  position: relative;
+  bottom: 4px;
+  width: 80px;
+  font-size: 18px;
+  height: 33px;
+  border: none;
+  color: rgba(48, 17, 151, 0.88);
+  border-radius: 20px;
+}
+
+.login-btn:hover {
+  background-color: rgba(224, 224, 224, 0.274);
+  color: white;
+  box-shadow: 0 0 5px black;
+  cursor: pointer;
+}
+
 /* main box */
 
 .box {
