@@ -93,13 +93,13 @@ body {
     height: 100vh;
     z-index: 2;
     overflow: hidden;
-    margin-inline: 10%;
+    margin-inline: 8%;
     /* margin-top: 4px; */
 }
 
 .page-2 ul {
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items: center;
 }
 
@@ -109,37 +109,61 @@ body {
 }
 
 .card-text {
-  padding-top: 10px;
-  font-size: 22px;
-  font-weight: 400;
-  color: rgb(57, 8, 94);
+  
 }
 
 .card-image {
+  /* position: relative; */
   display: inline-block;
   overflow: hidden;
   border-radius: 5%;
   opacity: 1;
   transition: all 0.3s;
-
-}
-
-.card-image:hover {
-  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.687);
-}
-
-.card-image img {
   height: 230px;
+  width: 230px;
   display: block;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-.card-image:hover img {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+.cards p {
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  padding-inline: auto;
+}
+
+.card-image:hover {
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.687);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   border-radius: 5%;
   /* filter: invert(0.2); */
+}
+
+.card-image:hover .card-text {
+  transform: translateY(10px);
+}
+
+.card-image.card1 {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.75), rgba(101, 15, 188, 0.546)), url('falling-sand.png');
+  background-size: contain;
+}
+
+.card-image.card2 {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.75), rgba(101, 15, 188, 0.546)), url('clock.png');
+  background-size: contain;
+}
+
+.card-image.card3 {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.75), rgba(101, 15, 188, 0.546)), url('wordle.png');
+  background-size: contain;
+}
+
+.card-image.card4 {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.75), rgba(101, 15, 188, 0.546)), url('falling-sand.png');
+  background-size: contain;
 }
