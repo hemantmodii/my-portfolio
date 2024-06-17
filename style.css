@@ -4,7 +4,7 @@
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
 }
 
 body {
-  background-image: url(bgbg.png);
+  background-image: url(bgbg2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -74,17 +74,12 @@ body {
   align-items: center;
 }
 
-.first-line {
-  color: rgba(48, 17, 151, 0.88);
-
-}
 
 .main-text {
   /* width: 30%; */
   padding: 0px;
   text-align: justify;
   line-height: 1.8;
-  color: rgba(57, 26, 161, 0.88);
 
 }
 
@@ -116,17 +111,21 @@ body {
 .card-text {
   padding-top: 10px;
   font-size: 22px;
-  color: rgba(43, 16, 129, 0.88);
-
-  font-weight: 500;
+  font-weight: 400;
+  color: rgb(57, 8, 94);
 }
 
 .card-image {
   display: inline-block;
   overflow: hidden;
   border-radius: 5%;
-  box-shadow: 0px 0px 8px rgba(14, 23, 143, 0.687);
+  opacity: 1;
+  transition: all 0.3s;
 
+}
+
+.card-image:hover {
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.687);
 }
 
 .card-image img {
@@ -142,5 +141,5 @@ body {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   border-radius: 5%;
-  filter: invert(0.2);
+  /* filter: invert(0.2); */
 }
