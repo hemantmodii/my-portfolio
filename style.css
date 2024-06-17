@@ -159,11 +159,11 @@ body {
 }
 
 .card-image.card3 {
-  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.75), rgba(101, 15, 188, 0.546)), url('wordle.png');
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.75), rgba(89, 5, 173, 0.426)), url('wordle.png');
   background-size: contain;
 }
 
 .card-image.card4 {
-  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.75), rgba(101, 15, 188, 0.546)), url('falling-sand.png');
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.75), rgba(63, 19, 107, 0.185)), url('parallax.png');
   background-size: contain;
 }
