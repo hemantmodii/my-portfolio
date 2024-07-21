@@ -41,7 +41,7 @@ const WorkPage = () => {
             {item.tags.map((el, j) => (
               <button
                 className="bg-white text-black border-black border-2 px-2.5 py-1 mx-2 rounded-full hover:bg-violet-500 hover:border-violet-500 hover:text-white"
-                key={new Date() + j}
+                key={`${j}${i}`}
               >
                 {el}
               </button>
