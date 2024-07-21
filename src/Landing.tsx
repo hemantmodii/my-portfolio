@@ -13,7 +13,7 @@ const Landing = () => {
           Currently, I am helping a startup pop-out on the internet with the help of intuitive website designs at <strong className='underline text-violet-700'>Paritranaya Globals</strong>.
         </p>
       </div>
-      <a href="#main-work"><button className='border-2 border-black rounded-full py-3 px-4 dark:border-gray-100 transition-colors duration-400 ease-in-out hover:bg-violet-600 hover:border-violet-600 dark:hover:border-violet-600 cursor-none hover:text-white'>View My Work 👇</button></a>
+      <a href="#main-work"><button className='border-2 border-black rounded-full py-3 px-4 dark:border-gray-100 transition-colors duration-400 ease-in-out hover:bg-violet-600 hover:border-violet-600 dark:hover:border-violet-600 hover:text-white'>View My Work 👇</button></a>
     </div>
   )
 }

@@ -8,7 +8,7 @@ const About = () => {
           <div className="flex justify-between mb-8">
             <h1 className="text-4xl tracking-tight">About Me</h1>
             
-              <a href={resume}><button className="border-2 border-black rounded-full py-3 px-4 transition-colors duration-400 ease-in-out hover:bg-violet-600 hover:border-violet-600 hover:text-white cursor-none">📄Resume
+              <a href={resume}><button className="border-2 border-black rounded-full py-3 px-4 transition-colors duration-400 ease-in-out hover:bg-violet-600 hover:border-violet-600 hover:text-white">📄Resume
             </button></a>
           </div>
           <div className="text-lg flex flex-col gap-8 mb-20 tracking-wider">
