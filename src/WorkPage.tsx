@@ -23,7 +23,7 @@ const works = [
   },
   {
     heading: "Wordle Game",
-    text: "The New York Times famous game of guessing word of the day (or WOTD).",
+    text: "The New York Times famous game of guessing the Word of the Day ( or WOTD ).",
     tags: ["JavaScript", "HTML", "CSS"],
     image: img3,
     pagelink: "https://hemantmodii.github.io/wordle/",
@@ -62,7 +62,7 @@ const WorkPage = () => {
           <div>
             {item.tags.map((el, j) => (
               <button
-                className="bg-white text-black border-black border-2 px-2.5 py-1 mx-2 rounded-full hover:bg-violet-300 hover:border-violet-300 hover:text-white"
+                className="bg-white text-black border-black border-2 px-2.5 py-1 mx-2 rounded-full hover:bg-violet-300 transition-all duration-300 ease-out hover:border-violet-300 hover:text-white"
                 key={`${j}${i}`}
               >
                 {el}
@@ -71,7 +71,7 @@ const WorkPage = () => {
           </div>
           </div>
           <div className="absolute h-[30%] w-1/4 ml-[50%] bg-violet-200 overflow-hidden rounded-xl shadow-md">
-          <div className="relative top-16 left-[20%] hover:translate-x-[-10px] transition-all duration-300 ease-in-out shadow-md shadow-gray-900 hover:translate-y-[-13px] hover:shadow-lg hover:shadow-gray-950 rounded-xl"><img className="rounded-xl" src={item.image} alt="" /></div>
+          <div className="relative top-16 left-[20%] hover:translate-x-[-10px] transition-all duration-300 ease-in-out shadow-md shadow-gray-900 hover:translate-y-[-13px] hover:shadow-lg hover:shadow-gray-950 rounded-xl"><a href={item.pagelink}><img className="rounded-xl" src={item.image} alt="" /></a></div>
           </div>
         </div>
       ))}
