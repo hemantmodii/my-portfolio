@@ -3,7 +3,7 @@ import resume from './assets/resume.pdf';
 
 const About = () => {
   return (
-      <div className=" lg:mb-28 sm:mb-[480px] mt-36 ml-[10%] lg:pr-0 sm:pr-[10%] flex justify-start items-center gap-16 ">
+      <div className=" lg:mb-28 sm:mb-[480px] mt-36 ml-[10%] lg:pr-0 sm:pr-[10%] flex justify-start items-center gap-16 md:pr-[10%]">
         <div className="lg:w-1/2 sm:w-full">
           <div className="flex justify-between mb-8">
             <h1 className="text-4xl tracking-tight">About Me</h1>
@@ -13,39 +13,24 @@ const About = () => {
           </div>
           <div className="text-lg flex flex-col gap-8 mb-20 tracking-wider">
             <p>
-              I am a product designer with a passion for solving problems and
-              creating elegant experiences. Working in the business environment,
-              I am keen to understand users' needs and contribute to the success
-              of the business.
+            As a Full Stack Web Developer, I bring technical expertise and creative vision to my projects. With a background in <b>Electronics and Communication Engineering</b> from the <b>National Institute of Technology Raipur</b>, I excel in front-end development using <b>React</b> and have a solid grasp of back-end technologies. My aim is to create user-friendly web applications.
             </p>
             <p>
-              My current focus is on fintech product design, where I aim to
-              distill complex financial information into simpler, more
-              digestible forms in order to empower individuals effectively grow
-              their wealth.
+            I am committed to continuous learning and improvement. Proficient in <b>HTML, CSS, JavaScript, MySQL, and C++</b>, I handle both client-side and server-side development. My part-time graphic design experience enhances my ability to craft visually appealing user interfaces. I strive to deliver high-quality solutions.
             </p>
             <p>
-              Guided by the principles of thorough research, iterative design,
-              and open dialogue, my approach is holistically focused on
-              enhancing every facet of user experience. With these cornerstones,
-              I aim to make the user experience from good to great, bridging the
-              gap between functionality and user delight.
+            Collaboration is key to my work ethic. I thrive in team-oriented environments and adapt quickly to new challenges. My background in <b>deep learning, optical communication, and embedded systems</b> allows me to approach web development with a multidisciplinary perspective, ensuring innovative solutions.
             </p>
           </div>
           <div>
-            <h2 className="text-2xl tracking-wider pb-4">
+            <h2 className="text-2xl tracking-wider pb-4 font-semibold">
               When I am not working...
             </h2>
             <h3 className="text-3xl tracking-widest pb-14">
               🎸 📚 🎮 🎹 🏸 📷
             </h3>
             <p className="text-lg tracking-wider leading-8 font-normal">
-              I immerse myself in a variety of activities that feed my spirit. I
-              cherish my weekend traditions that begin with solitary piano
-              sessions, followed by a search of NYC's best brunch locales. The
-              day culminates in a high-energy dance group meet where we lose
-              ourselves to the rhythm. My affection for both music and dance is
-              a testament to my love for rhythmic expression and art.
+            When I am not working, I indulge in various hobbies. I enjoy reading, especially Harry Potter and books on psychology. Playing chess sharpens my mind, while the guitar and harmonium provide a musical outlet. I am also a big fan of Marvel movies, which fuel my imagination and inspire creativity.
             </p>
           </div>
         </div>

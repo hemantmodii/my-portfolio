@@ -8,6 +8,7 @@ const works = [
     text: "I have made this project to track the time it takes to complete an assigned task.",
     tags: ["javascript", "html", "css"],
     image: img1,
+    pagelink: "https://task-tracker-kappa-gilt.vercel.app/",
   },
   {
     heading: "Task Tracker",
@@ -35,7 +36,8 @@ const WorkPage = () => {
       {works.map((item, i) => (
         <div className="py-16 border-b-2 px-8 flex justify-center items-center pr-[30%]" key={i}>
           <div>
-          <h1 className="text-4xl mb-10 font-semibold">{item.heading}</h1>
+          <h1 className="text-4xl mb-10 font-semibold"><a className="group" href={item.pagelink}>{item.heading}
+          <div className="h-1.5 w-0 bg-black group-hover:w-[40%] transition-all duration-500"></div></a></h1>
           <p className="w-4/5 text-md mb-8 leading-5 text-gray-700 dark:text-gray-400">{item.text}</p>
           <div>
             {item.tags.map((el, j) => (

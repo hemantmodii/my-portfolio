@@ -2,7 +2,7 @@ import gmailImg from './assets/gmail.svg'
 
 const Footer = () => {
   return (
-    <div className='flex justify-evenly bg-black text-white h-36 items-center dark:bg-gray-950 dark:text-white tracking-wide'>
+    <div className='flex justify-evenly bg-[#0b002a] text-white h-36 items-center tracking-wide'>
       <p>Let's Connect!</p>
       <div className='flex items-center'>
       <img className='h-8 invert pr-2' src={gmailImg} alt="" />
