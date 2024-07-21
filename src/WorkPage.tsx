@@ -6,20 +6,20 @@ const works = [
   {
     heading: "Task Tracker",
     text: "I have made this project to track the time it takes to complete an assigned task.",
-    tags: ["javascript", "html", "css"],
+    tags: ["HTML", "CSS", "JavaScript"],
     image: img1,
     pagelink: "https://task-tracker-kappa-gilt.vercel.app/",
   },
   {
-    heading: "Task Tracker",
-    text: "I have made this project to track the time it takes to complete an assigned task.",
+    heading: "Wordle Game",
+    text: "The New York Times famous game of guessing word of the day (or WOTD).",
     tags: ["javascript", "html", "css"],
     image: img1,
   },
   {
-    heading: "Task Tracker",
-    text: "I have made this project to track the time it takes to complete an assigned task.",
-    tags: ["javascript", "html", "css"],
+    heading: "Analog Clock",
+    text: "A simple and elegant Analog Clock using setTimeout function of Javascript",
+    tags: ["HTML", "CSS"],
     image: img1,
   },
 ];
