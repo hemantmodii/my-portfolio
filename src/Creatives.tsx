@@ -16,7 +16,7 @@ const Creatives = () => {
           <div className="relative h-[470px] w-auto bg-violet-300 mix-blend-multiply z-[-1] top-[-419px]"></div>
           <div className="lg:h-[100px] h-[40px] lg:w-[100px] w-[40px] border-violet-300 border-2 relative lg:top-[-610px] top-[-485px] rotate-45 lg:left-[-20px] left-[-10px] transition-all duration-400 rounded hover:rotate-0 hover:border-black">
           </div>
-          <div className="lg:h-[100px] h-[33px] lg:w-[300px] w-[100px] border-violet-300 border-2 relative lg:top-[-900px] top-[-585px] rotate-12 lg:left-[360px] left-[115px] transition-all duration-400 rounded hover:rotate-0 hover:border-black">
+          <div className="lg:h-[100px] h-[33px] lg:w-[300px] w-[100px] border-violet-300 border-2 relative lg:top-[-900px] top-[-36rem] rotate-12 lg:left-[360px] left-[6rem] transition-all duration-400 rounded hover:rotate-0 hover:border-black">
           </div>
           <div className="lg:h-[100px] h-[33px] lg:w-[300px] w-[100px] border-violet-300 border-2 relative lg:top-[-800px] top-[-550px] rotate-[-25deg] left-[82%] transition-all duration-400 rounded hover:rotate-0 hover:border-black">
           </div>
