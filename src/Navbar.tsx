@@ -39,7 +39,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="pt-12 px-[4%] flex justify-between font-semibold">
+      <div className={`py-6 px-[4%] flex justify-between font-semibold ${sidebarOpen ? 'bg-gray-100': 'bg-violet-100'}`}>
         <h1 className="text-lg cursor-pointer hover:text-violet-800">
           <Link to="/">HEMANT MODI</Link>
         </h1>
@@ -63,11 +63,11 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`fixed top-0 left-0 w-full h-full bg-white z-50 transform ${
+        className={`fixed bg-violet-50 top-0 left-0 w-full h-full z-50 transform ${
           sidebarOpen ? 'translate-x-[-40%]' : '-translate-x-full'
         } transition-transform duration-300 ease-in-out md:hidden`}
       >
-        <div className="pt-12 pr-[14%] flex justify-end font-semibold">
+        <div className="pt-12 pr-[14%] flex justify-end font-semibold bg-violet-200 pb-12">
           <h1 className="text-2xl cursor-pointer hover:text-violet-800">
             <Link to="/" onClick={closeSidebar}>HEMANT MODI</Link>
           </h1>
@@ -79,13 +79,13 @@ const Navbar = () => {
           </button> */}
         </div>
         <ul className="flex flex-col gap-10 text-lg justify-end items-end pr-[14%] mt-12">
-          <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-y-[-4px]">
+          <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
             <a href="/work" onClick={closeSidebar}>WORKS</a>
           </li>
-          <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-y-[-4px]">
+          <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
             <Link to="/profile/creatives" onClick={closeSidebar}>CREATIVES</Link>
           </li>
-          <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-y-[-4px]">
+          <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
             <Link to="/profile/about" onClick={closeSidebar}>ABOUT</Link>
           </li>
         </ul>
