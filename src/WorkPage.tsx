@@ -12,12 +12,13 @@ const works = [
     text: "A physics simulator game that makes beautiful sand ridges on cursor movement.",
     tags: ["P5.js", "HTML", "CSS"],
     image: img1,
-    pagelink: "https://falling-sand-oh9bcvrp8-hemants-projects-a5709952.vercel.app/",
+    pagelink:
+      "https://falling-sand-oh9bcvrp8-hemants-projects-a5709952.vercel.app/",
   },
   {
     heading: "Task Tracker",
     text: "I have made this project to track the time it takes to complete an assigned task.",
-    tags: ["ReactJS", "HTML", "CSS" ],
+    tags: ["ReactJS", "HTML", "CSS"],
     image: img2,
     pagelink: "https://task-tracker-kappa-gilt.vercel.app/",
   },
@@ -45,33 +46,45 @@ const works = [
 ];
 
 const WorkPage = () => {
-
   // const param = useParams();
 
-
-
-
   return (
-    <div id="main-work" className="mx-[15%] mb-16 flex flex-col justify-center items-center w-2/3">
+    <div
+      id="main-work"
+      className="lg:mx-[15%] mx-[5%] mb-16 flex flex-col justify-center items-center w-2/3"
+    >
       {works.map((item, i) => (
-        <div className="py-16 border-b-2 px-8 flex justify-center items-center pr-[30%]" key={i}>
+        <div
+          className="py-16 border-b-2 px-8 flex justify-center items-center lg:pr-[30%]"
+          key={i}
+        >
           <div>
-          <h1 className="text-4xl mb-10 font-semibold"><a className="group" href={item.pagelink}>{item.heading}
-          <div className="h-1.5 w-0 bg-black group-hover:w-[40%] transition-all duration-500"></div></a></h1>
-          <p className="w-4/5 text-md mb-8 leading-5 text-gray-700 dark:text-gray-400">{item.text}</p>
-          <div>
-            {item.tags.map((el, j) => (
-              <button
-                className="bg-white text-black border-black border-2 px-2.5 py-1 mx-2 rounded-full hover:bg-violet-300 transition-all duration-300 ease-out hover:border-violet-300 hover:text-white"
-                key={`${j}${i}`}
-              >
-                {el}
-              </button>
-            ))}
+            <h1 className="text-4xl mb-10 font-semibold">
+              <a className="group" href={item.pagelink}>
+                {item.heading}
+                <div className="h-1.5 w-0 bg-black lg:group-hover:w-[40%] group-hover:w-full transition-all duration-500"></div>
+              </a>
+            </h1>
+            <p className="lg:block hidden w-4/5 text-md mb-8 leading-5 text-gray-700 dark:text-gray-400">
+              {item.text}
+            </p>
+            <div className="lg:block gap-2 grid auto-rows-auto lg:ml-0 ml-[-7%] mr-20">
+              {item.tags.map((el, j) => (
+                <button
+                  className="bg-white text-black border-black border-2 px-2.5 py-1 mx-2 rounded-full hover:bg-violet-300 transition-all duration-300 ease-out hover:border-violet-300 hover:text-white "
+                  key={`${j}${i}`}
+                >
+                  {el}
+                </button>
+              ))}
+            </div>
           </div>
-          </div>
-          <div className="absolute h-[30%] w-1/4 ml-[50%] bg-violet-200 overflow-hidden rounded-xl shadow-md">
-          <div className="relative top-16 left-[20%] hover:translate-x-[-10px] transition-all duration-300 ease-in-out shadow-md shadow-gray-900 hover:translate-y-[-13px] hover:shadow-lg hover:shadow-gray-950 rounded-xl"><a href={item.pagelink}><img className="rounded-xl" src={item.image} alt="" /></a></div>
+          <div className="absolute lg:h-[30%] h-[18%] lg:w-1/4 w-[40%] lg:ml-[50%] ml-[65%] lg:mt-0 mt-20 bg-violet-200 overflow-hidden rounded-xl shadow-md">
+            <div className="relative lg:top-16 top-10 left-[20%] lg:hover:translate-x-[-10px] hover:translate-x-[-10px] hover:translate-y-[-6px] transition-all duration-300 ease-in-out shadow-md shadow-gray-900 lg:hover:translate-y-[-13px] hover:shadow-lg hover:shadow-gray-950 rounded-xl">
+              <a href={item.pagelink}>
+                <img className="rounded-xl" src={item.image} alt="" />
+              </a>
+            </div>
           </div>
         </div>
       ))}
