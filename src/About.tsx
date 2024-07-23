@@ -1,5 +1,5 @@
 import myImage from "./assets/myImagecrop.jpg";
-import resume from './assets/resume.pdf';
+import resume from './assets/hemant-modi-resume.pdf';
 
 const About = () => {
   return (
