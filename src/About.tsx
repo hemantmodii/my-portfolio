@@ -18,23 +18,23 @@ const About = () => {
             <p>
             I am committed to continuous learning and improvement. Proficient in <b>HTML, CSS, JavaScript, MySQL, and C++</b>, I handle both client-side and server-side development. My part-time graphic design experience enhances my ability to craft visually appealing user interfaces. I strive to deliver high-quality solutions.
             </p>
-            <p>
+            <p className="lg:mb-0 mb-[500px] lg:pb-0 pb-8 lg:border-0 border-b-2">
             Collaboration is key to my work ethic. I thrive in team-oriented environments and adapt quickly to new challenges. My background in <b>deep learning, optical communication, and embedded systems</b> allows me to approach web development with a multidisciplinary perspective, ensuring innovative solutions.
             </p>
           </div>
           <div>
-            <h2 className="text-2xl tracking-wider pb-4 font-semibold">
+            <h2 className="text-2xl tracking-wider pb-4 font-semibold lg:border-0 border-t-2 lg:pt-0 pt-8">
               When I am not working...
             </h2>
             <h3 className="text-3xl tracking-widest pb-14">
               🎸 📚 🎮 🎹 🏸 📷
             </h3>
-            <p className="text-lg tracking-wider leading-8 font-normal lg:mb-0 mb-[500px]">
+            <p className="text-lg tracking-wider leading-8 font-normal">
             When I am not working, I indulge in various hobbies. I enjoy reading, especially Harry Potter and books on psychology. Playing chess sharpens my mind, while the guitar and harmonium provide a musical outlet. I am also a big fan of Marvel movies, which fuel my imagination and inspire creativity.
             </p>
           </div>
         </div>
-        <div className="absolute lg:ml-[55%] lg:mt-[-280px] bg-violet-200 lg:h-[58%] lg:w-[17%] rounded-lg transition-shadow duration-300 hover:shadow-violet-600 hover:shadow-md sm:mt-[1400px] sm:w-[30%] sm:ml-[27%]">
+        <div className="absolute lg:ml-[55%] ml-[17%] lg:mt-[-280px] mt-[445px] bg-violet-200 lg:h-[58%] lg:w-[17%] rounded-lg transition-shadow duration-300 hover:shadow-violet-600 hover:shadow-md sm:mt-[1400px] sm:w-[30%] sm:ml-[27%]">
           <div className="relative top-[-20px] left-[-19px] transition-all duration-600 ease-in hover:translate-x-[9px] hover:translate-y-[10px]">
             <img
               className="grayscale shadow-md hover:rounded-md"
