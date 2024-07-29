@@ -79,8 +79,8 @@ const WorkPage = () => {
               ))}
             </div>
           </div>
-          <div className="absolute lg:h-[30%] h-[18%] lg:w-1/4 w-[40%] lg:ml-[50%] ml-[65%] lg:mt-0 mt-20 bg-violet-200 overflow-hidden rounded-xl shadow-md">
-            <div className="relative lg:top-16 top-10 left-[20%] lg:hover:translate-x-[-10px] hover:translate-x-[-10px] hover:translate-y-[-6px] transition-all duration-300 ease-in-out shadow-md shadow-gray-900 lg:hover:translate-y-[-13px] hover:shadow-lg hover:shadow-gray-950 rounded-xl">
+          <div className="absolute lg:h-[30%] h-[16%] lg:w-1/4 w-[40%] lg:ml-[50%] ml-[65%] lg:mt-0 mt-24 bg-violet-200 overflow-hidden rounded-xl shadow-md">
+            <div className="relative lg:top-16 top-14 left-[16%] lg:hover:translate-x-[-10px] hover:translate-x-[-10px] hover:translate-y-[-6px] transition-all duration-300 ease-in-out shadow-md shadow-gray-900 lg:hover:translate-y-[-13px] hover:shadow-lg hover:shadow-gray-950 rounded-xl">
               <a href={item.pagelink}>
                 <img className="rounded-xl" src={item.image} alt="" />
               </a>

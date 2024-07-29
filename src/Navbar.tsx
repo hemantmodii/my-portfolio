@@ -44,14 +44,14 @@ const Navbar = () => {
           <Link to="/">HEMANT MODI</Link>
         </h1>
         <ul className="hidden md:flex gap-6 text-lg justify-center items-center">
+        <li className="cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-y-[-4px]">
+            <Link to="/about">ABOUT</Link>
+          </li>
           <li className="cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-y-[-4px]">
             <a href="/work" onClick={ScrollToAnchor}>WORKS</a>
           </li>
           <li className="cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-y-[-4px]">
-            <Link to="/profile/creatives">CREATIVES</Link>
-          </li>
-          <li className="cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-y-[-4px]">
-            <Link to="/profile/about">ABOUT</Link>
+            <Link to="/creatives">CREATIVES</Link>
           </li>
         </ul>
         <button
@@ -79,15 +79,16 @@ const Navbar = () => {
           </button> */}
         </div>
         <ul className="flex flex-col gap-10 text-lg justify-end items-end pr-[14%] mt-12">
+        <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
+            <Link to="/profile/about" onClick={closeSidebar}>ABOUT</Link>
+          </li>
           <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
             <a href="/work" onClick={closeSidebar}>WORKS</a>
           </li>
           <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
             <Link to="/profile/creatives" onClick={closeSidebar}>CREATIVES</Link>
           </li>
-          <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
-            <Link to="/profile/about" onClick={closeSidebar}>ABOUT</Link>
-          </li>
+          
         </ul>
       </div>
     </div>
