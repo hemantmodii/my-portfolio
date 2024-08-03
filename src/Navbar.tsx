@@ -53,6 +53,9 @@ const Navbar = () => {
           <li className="cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-y-[-4px]">
             <Link to="/creatives">CREATIVES</Link>
           </li>
+          <li className="cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-y-[-4px]">
+            <Link to="/contact">CONTACT</Link>
+          </li>
         </ul>
         <button
           className="block md:hidden text-lg transition-colors duration-300 ease-in-out hover:text-violet-500"
@@ -86,7 +89,10 @@ const Navbar = () => {
             <a href="/work" onClick={closeSidebar}>WORKS</a>
           </li>
           <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
-            <Link to="/profile/creatives" onClick={closeSidebar}>CREATIVES</Link>
+            <Link to="/creatives" onClick={closeSidebar}>CREATIVES</Link>
+          </li>
+          <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
+            <Link to="/contact" onClick={closeSidebar}>CONTACT</Link>
           </li>
           
         </ul>
