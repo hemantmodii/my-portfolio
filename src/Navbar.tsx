@@ -48,7 +48,7 @@ const Navbar = () => {
             <Link to="/about">ABOUT</Link>
           </li>
           <li className="cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-y-[-4px]">
-            <a href="/work" onClick={ScrollToAnchor}>WORKS</a>
+            <Link to="/work">WORKS</Link>
           </li>
           <li className="cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-y-[-4px]">
             <Link to="/creatives">CREATIVES</Link>
