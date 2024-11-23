@@ -83,7 +83,7 @@ const Navbar = () => {
         </div>
         <ul className="flex flex-col gap-10 text-lg justify-end items-end pr-[14%] mt-12">
         <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
-            <Link to="/profile/about" onClick={closeSidebar}>ABOUT</Link>
+            <Link to="/about" onClick={closeSidebar}>ABOUT</Link>
           </li>
           <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
             <a href="/work" onClick={closeSidebar}>WORKS</a>

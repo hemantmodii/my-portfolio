@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import wavingHand from "./assets/waving-hand.svg";
 
 const Landing = () => {
@@ -22,7 +23,7 @@ const Landing = () => {
           Currently, I am helping a startup pop-out on the internet with the
           help of intuitive website designs at{" "}
           <strong className="underline text-violet-700">
-            Paritranaya Globals
+            <Link to="https://paritranayaglobal.com/">Paritranaya Globals</Link>
           </strong>
           .
         </p>
