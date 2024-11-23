@@ -8,14 +8,14 @@ interface InfiSliderProps {
   reverse?: boolean;
 }
 
-const InfiSlider: React.FC<InfiSliderProps> = ({ width, height, images, reverse = false }) => {
+const InfiSlider: React.FC<InfiSliderProps> = ({ width, height, images }) => {
   return (
     <>
     <div className={styles.slider} style={{
       '--width': width,
       '--height': height,
       '--quantity': images.length,
-    } as React.CSSProperties} reverse={reverse ? "true" : "false"}>
+    } as React.CSSProperties}>
       <div className={styles.list}>
         {images.map((src, index) => (
           <div
@@ -32,7 +32,7 @@ const InfiSlider: React.FC<InfiSliderProps> = ({ width, height, images, reverse 
       '--width': width,
       '--height': height,
       '--quantity': images.length,
-    } as React.CSSProperties} reverse={reverse ? "false" : "true"}>
+    } as React.CSSProperties}>
       <div className={styles.list}>
         {images.map((src, index) => (
           <div
