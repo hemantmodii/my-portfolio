@@ -9,6 +9,7 @@ const Landing = () => {
           className="h-16 transition-all duration-600 hover:rotate-12 hover:translate-y-[-3px] hover:translate-x-3 ml-[-5px]"
           src={wavingHand}
           alt="wave"
+          loading="lazy"
         />
         <h1 className="lg:text-[56px] text-[40px]">Hi, I'm Hemant Modi.</h1>
       </div>

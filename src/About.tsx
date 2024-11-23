@@ -40,6 +40,7 @@ const About = () => {
               className="grayscale shadow-md hover:rounded-md"
               src={myImage}
               alt="My Image"
+              loading="lazy"
             />
           </div>
         </div>

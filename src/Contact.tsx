@@ -139,7 +139,7 @@ function Contact() {
             </button>
           </form>
         </div>
-        <div className="lg:block hidden lg:w-[40%] lg:pe-8 w-full p-8"><img src={contactImg} alt="" className='rounded'/></div>
+        <div className="lg:block hidden lg:w-[40%] lg:pe-8 w-full p-8"><img src={contactImg} alt="" className='rounded' loading='lazy'/></div>
         
       </div>
     </div>
