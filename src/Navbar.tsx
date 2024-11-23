@@ -86,7 +86,7 @@ const Navbar = () => {
             <Link to="/about" onClick={closeSidebar}>ABOUT</Link>
           </li>
           <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
-            <a href="/work" onClick={closeSidebar}>WORKS</a>
+            <Link to="/work" onClick={closeSidebar}>WORKS</Link>
           </li>
           <li className="font-semibold cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-x-[-8px] hover:underline-offset-2 hover:underline">
             <Link to="/creatives" onClick={closeSidebar}>CREATIVES</Link>
