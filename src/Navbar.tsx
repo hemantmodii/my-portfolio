@@ -1,10 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaArrowLeft, FaBackward, FaBars, FaTimes } from 'react-icons/fa';
 
 
 const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const location = useLocation();
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
@@ -14,12 +15,14 @@ const Navbar = () => {
     setSidebarOpen(false);
   };
 
+  const home = location.pathname === '/' ? "HEMANT MODI" : <FaArrowLeft className="mr-2"/>;
+
 
   return (
     <div>
       <div className={`py-6 px-[4%] flex justify-between font-semibold ${sidebarOpen ? 'bg-gray-100': 'bg-violet-100'}`}>
         <h1 className="text-lg cursor-pointer hover:text-violet-800">
-          <Link to="/">HEMANT MODI</Link>
+          <Link to="/">{home}</Link>
         </h1>
         <ul className="hidden md:flex gap-6 text-lg justify-center items-center">
         <li className="cursor-pointer transition-all duration-400 ease-in-out hover:text-violet-800 hover:translate-y-[-4px]">
