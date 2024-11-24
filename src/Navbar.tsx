@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
-import { FaArrowLeft, FaBackward, FaBars, FaTimes } from 'react-icons/fa';
+import { FaArrowLeft, FaBars, FaTimes } from 'react-icons/fa';
 
 
 const Navbar = () => {
