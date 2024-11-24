@@ -1,0 +1,39 @@
+/* Loading.css */
+.dot {
+   height: 13px;
+   aspect-ratio: 1;
+   border-radius: 100%;
+   box-shadow: 6px 4px 8px rgba(119, 114, 114, 0.377);
+ }
+ 
+ .loading-root {
+   position: absolute;
+   transform: translate(-50%, -50%);
+   left: 50%;
+   top: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .row {
+   scale: 80%;
+   animation: anim 3s infinite ease-in-out;
+   /* display: flex; */
+ }
+ 
+ @keyframes anim {
+   0% {
+     scale: 80%;
+     border-radius: 100%;
+   }
+   50% {
+     scale: 150%;
+     border-radius: 0;
+   }
+   100% {
+     scale: 80%;
+     border-radius: 100%;
+   }
+ }
+ 
