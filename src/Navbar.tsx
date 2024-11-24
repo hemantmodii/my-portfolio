@@ -15,7 +15,7 @@ const Navbar = () => {
     setSidebarOpen(false);
   };
 
-  const home = location.pathname === '/' ? "HEMANT MODI" : <FaArrowLeft className="mr-2"/>;
+  const home = location.pathname === '/' ? "HEMANT MODI" : <FaArrowLeft className='scale-125'/>;
 
 
   return (
