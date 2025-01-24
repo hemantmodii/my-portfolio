@@ -13,7 +13,7 @@ const works = [
     tags: ["P5.js", "HTML", "CSS"],
     image: img1,
     pagelink:
-      "https://falling-sand-oh9bcvrp8-hemants-projects-a5709952.vercel.app/",
+      "https://sand.hemantmodi.com",
   },
   {
     heading: "Task Tracker",
