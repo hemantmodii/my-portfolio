@@ -2,11 +2,26 @@
 import img1 from "./assets/sand.png";
 import img2 from "./assets/taskTracker.png";
 import img3 from "./assets/wordle.png";
-import img4 from "./assets/parallax.png";
-import img5 from "./assets/clock.png";
+import img4 from "./assets/novel.png";
+import img5 from "./assets/Tictactoe.png";
+import img6 from "./assets/zyntime.png";
 // import { Params } from "react-router-dom";
 
 const works = [
+  {
+    heading: "My Web Novel",
+    text: "My creative writing space, where I publish new chapters and excerpts every week.",
+    tags: ["NextJS", "NeonDB", "TailwindCSS"],
+    image: img4,
+    pagelink: "https://novel.hemantmodi.com",
+  },
+  {
+    heading: "ZynTime App",
+    text: "The best app to track your daily and monthly goals and track your time effectively.",
+    tags: ["ReactJS", "TailwindCSS", "ShadCN UI"],
+    image: img6,
+    pagelink: "https://novel.hemantmodi.com",
+  },
   {
     heading: "Falling Sand",
     text: "A physics simulator game that makes beautiful sand ridges on cursor movement.",
@@ -30,18 +45,11 @@ const works = [
     pagelink: "https://hemantmodii.github.io/wordle/",
   },
   {
-    heading: "Parallax Site",
-    text: "This is a completely CSS based website to show my Website Designing Prowess",
-    tags: ["HTML", "CSS"],
-    image: img4,
-    pagelink: "https://hemantmodii.github.io/parallax/",
-  },
-  {
-    heading: "Analog Clock",
-    text: "A simple and elegant Analog Clock using only setTimeout function of Javascript",
-    tags: ["HTML", "CSS"],
+    heading: "Tic Tac Toe",
+    text: "Themed Tic Tac Toe implemented with ReactJS and TailwindCSS for classy UI.",
+    tags: ["ReactJS", "TailwindCSS"],
     image: img5,
-    pagelink: "https://hemantmodii.github.io/Analog-Clock/",
+    pagelink: "https://tictactoe.hemantmodi.com",
   },
 ];
 

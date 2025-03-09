@@ -28,23 +28,6 @@ const InfiSlider: React.FC<InfiSliderProps> = ({ width, height, images }) => {
         ))}
       </div>
     </div>
-    <div className={styles.slider} style={{
-      '--width': width,
-      '--height': height,
-      '--quantity': images.length,
-    } as React.CSSProperties}>
-      <div className={styles.list}>
-        {images.map((src, index) => (
-          <div
-            className={styles.itom}
-            key={index}
-            style={{ '--position': index + 1 } as React.CSSProperties}
-          >
-            <img src={src} alt={`slider-${index}`} />
-          </div>
-        ))}
-      </div>
-    </div>
     </>
   );
 };
